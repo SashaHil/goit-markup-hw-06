@@ -566,7 +566,7 @@
               placeholder="E-mail"
             />
 
-            <button type="submit" class="footer-btn">
+            <button type="submit" class="btn footer-btn">
               Підписатися
               <svg width="24" height="24" class="icon-send">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
@@ -582,7 +582,7 @@
         <form class="form">
           <div class="form-field">
             <label for="name">Ім'я</label>
-            <input type="name" name="username" id="name" />
+            <input type="text" name="username" id="name" />
           </div>
 
           <div class="form-field">
@@ -605,16 +605,15 @@
             ></textarea>
           </div>
 
-          <div class="form-field">
-            <div class="checkbox-field">
-              <input type="checkbox" name="policy" id="policy" />
-              <label for="policy"
-                >Погоджуюся з розсилкою та приймаю Умови договору</label
-              >
-            </div>
+          <div class="checkbox-field">
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="#" class="policy-link">Умови договору</a></label
+            >
           </div>
 
-          <button type="submit" class="">Відправити</button>
+          <button type="submit" class="btn modal-btn">Відправити</button>
         </form>
         <svg class="close-btn" width="30" height="30" data-modal-close>
           <use href="./images/symbol-defs.svg#icon-close"></use>
