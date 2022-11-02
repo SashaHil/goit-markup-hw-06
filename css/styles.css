@@ -860,6 +860,8 @@ textarea {
 
 .form-field input {
   height: 40px;
+
+  padding: 0 15px 0 42px;
 }
 
 .form-field textarea {
