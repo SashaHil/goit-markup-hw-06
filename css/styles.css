@@ -930,7 +930,7 @@ textarea {
 
   margin-right: 7px;
 
-  border: 2px solid #000000;
+  border: 2px solid var(--text-color);
   border-radius: 2px;
 
   transition: background-color var(--duration-timing-function),
