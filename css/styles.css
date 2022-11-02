@@ -935,10 +935,8 @@ textarea {
 }
 
 .checkbox:checked + .icon {
-  border-color: var(--accent-color);
+  border: none;
   background-color: var(--accent-color);
-
-  border-radius: 2px;
 }
 
 .modal-btn {
