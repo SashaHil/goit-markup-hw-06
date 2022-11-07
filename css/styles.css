@@ -921,8 +921,8 @@ textarea {
 .icon {
   display: inline-block;
 
-  width: 16x;
-  height: 15px;
+  /* width: 16px;
+  height: 15px; */
 
   margin-right: 7px;
 
@@ -934,11 +934,15 @@ textarea {
     border-color var(--duration-timing-function);
 }
 
-.checkbox:checked ~ .icon {
+.checkbox:checked + .icon {
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
   background-color: var(--accent-color);
+}
+
+.checkbox:focus + .icon {
+  border-color: var(--accent-color);
 }
 
 .modal-btn {
