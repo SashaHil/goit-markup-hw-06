@@ -602,7 +602,8 @@ textarea {
   transition: transform var(--duration-timing-function);
 }
 
-.work-list:hover .work-overlay {
+.work-list:hover .work-overlay,
+.link:focus .work-overlay {
   transform: translateY(0);
 }
 
